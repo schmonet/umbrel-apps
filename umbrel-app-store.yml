@@ -1,3 +1,2 @@
-name: Schmonet App Store
-description: Eigene Umbrel Apps von Schmonet
-icon: https://raw.githubusercontent.com/schmonet/umbrel-apps/main/store-icon.png
+id: "Schmonet App Store"
+name: "Schmonet App Store"

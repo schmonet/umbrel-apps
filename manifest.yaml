@@ -1,0 +1,10 @@
+id: "fhem"
+name: "FHEM"
+version: "1.0.0"
+releaseNotes: "Initial FHEM Docker integration for UmbrelOS"
+port: 8083
+icon: https://upload.wikimedia.org/wikipedia/commons/4/4f/FHEM_Logo.svg
+description: "Home automation server for controlling devices via Homematic, EnOcean, Z-Wave, etc."
+developer: "FHEM Team"
+website: "https://fhem.de"
+dependencies: []

@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: umbrel-apps-fhem
+name: FHEM
+category: Automation
+version: "0.1.0"
+tagline: Smarte Haussteuerung mit FHEM
+icon: https://raw.githubusercontent.com/schmonet/umbrel-apps/main/fhem/icon.png
+description: >
+  FHEM ist ein Perl-basiertes Hausautomationssystem zur Steuerung von Geräten wie Licht, Heizung, Rollos und mehr.
+developer: fhem.de Community
+website: https://fhem.de/
+dependencies: []
+repo: https://github.com/schmonet/umbrel-apps
+support: https://forum.fhem.de/
+port: 8083
+gallery: []
+path: ""
+releaseNotes: >
+  Erste Community-Version von FHEM für Umbrel.
+submitter: schmonet

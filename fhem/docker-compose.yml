@@ -1,15 +1,14 @@
-version: "3.7"
-
+version: "3.8"
 services:
-  app_proxy:
-    environment:
-      APP_HOST: schmonet-umbrel-fhem_server_1
-      APP_PORT: 8083
-      PROXY_AUTH_ADD: "false"
-
-  server:
+  fhem:
     image: ghcr.io/fhem/fhem-docker:5-bookworm
+    container_name: fhem
     restart: unless-stopped
+    network_mode: host
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - ${APP_DATA_DIR}/data/fhem:/data
+      - fhem-data:/opt/fhem
+    environment:
+      - TZ=Europe/Berlin
+
+volumes:
+  fhem-data:

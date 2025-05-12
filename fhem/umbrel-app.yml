@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: fhem
+id: umbrel-apps-fhem
 name: FHEM
 category: Automation
 version: "0.1.0"

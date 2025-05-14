@@ -4,7 +4,7 @@ name: FHEM
 category: Automation
 version: "0.1.0"
 tagline: Smarte Haussteuerung mit FHEM
-icon: https://github.com/schmonet/umbrel-apps/blob/main/umbrel-apps-fhem/icon.png
+icon: https://raw.githubusercontent.com/schmonet/umbrel-apps/refs/heads/main/umbrel-apps-fhem/icon.png
 description: >
   FHEM ist ein Perl-basiertes Hausautomationssystem zur Steuerung von Geräten wie Licht, Heizung, Rollos und mehr.
 developer: fhem.de Community
